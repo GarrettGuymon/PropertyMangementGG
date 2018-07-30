@@ -4,7 +4,7 @@ import { Header, HeaderBar } from './header';
 class Layout extends Component {
     render() {
         return (
-            <div classname='layout-grid'>
+            <div className='layout-grid'>
                 <Header/>
                 <HeaderBar/>
                 {this.props.children}
