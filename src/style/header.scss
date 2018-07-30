@@ -1,4 +1,7 @@
-.header-wrapper {
+.header {
+    grid-row: header-s/header-e;
+    grid-column: content-s/content-e;
+
 
     display: grid;
     grid-template-columns: [s] 1fr [e];
@@ -14,8 +17,7 @@
     }
 }
 
-.header-wrapper {
-
+.header {
     padding-top: 4rem;
 
     &__title {
